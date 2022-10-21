@@ -1,8 +1,13 @@
-// let kmDaFare = prompt("Quanti km devi fare?");
-console.log("km da percorrere", kmDaFare);
+let kmDaFare = document.getElementById("km_dafare");
+function biglietto (){
+    let kmDaFare = document.getElementById("km_dafare");
+    console.log("km_dafare.value");
+}
+
 
 // let eta = prompt("quanti anni hai?");
-console.log("età", eta);
+// console.log("età", eta);
+
 let prezzoBiglietto = kmDaFare * "0.21";
 console.log("prezzo biglietto", prezzoBiglietto , "euro");
 if (eta < 18) {
