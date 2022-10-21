@@ -2,7 +2,7 @@ let kmDaFare = document.getElementById("km_dafare");
 let submit = document.getElementById("invia");
 submit.addEventListener("click", function biglietto (){
     let kmDaFare = document.getElementById("km_dafare");
-    console.log('kmDaFare.value');
+    console.log('km_dafare.value');
 });
 
 
