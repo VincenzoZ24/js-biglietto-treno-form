@@ -1,8 +1,9 @@
 let kmDaFare = document.getElementById("km_dafare");
-function biglietto (){
+let submit = document.getElementById("invia");
+submit.addEventListener("click", function biglietto (){
     let kmDaFare = document.getElementById("km_dafare");
-    console.log("km_dafare.value");
-}
+    console.log('kmDaFare.value');
+});
 
 
 // let eta = prompt("quanti anni hai?");
