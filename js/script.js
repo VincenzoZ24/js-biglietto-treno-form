@@ -8,7 +8,7 @@ submit.addEventListener("click", function biglietto (){
 
 // let eta = prompt("quanti anni hai?");
 // console.log("età", eta);
-console.log('km_dafare.value');
+console.log(km_dafare.value);
 let prezzoBiglietto = kmDaFare * "0.21";
 console.log("prezzo biglietto", prezzoBiglietto , "euro");
 if (eta < 18) {
