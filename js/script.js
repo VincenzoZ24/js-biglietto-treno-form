@@ -9,7 +9,7 @@ submit.addEventListener("click", function biglietto() {
 
     
     let prezzoBiglietto = kmDaFare * "0.21";
-    // document.getElementById("prezzo").innerHTML;
+    document.getElementById("prezzo").innerHTML;
     
     if (eta < 18) {
         let sconto1 = (prezzoBiglietto * 0.2);
