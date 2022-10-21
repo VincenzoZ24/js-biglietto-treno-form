@@ -1,7 +1,7 @@
-let kmDaFare = prompt("Quanti km devi fare?");
+// let kmDaFare = prompt("Quanti km devi fare?");
 console.log("km da percorrere", kmDaFare);
 
-let eta = prompt("quanti anni hai?");
+// let eta = prompt("quanti anni hai?");
 console.log("età", eta);
 let prezzoBiglietto = kmDaFare * "0.21";
 console.log("prezzo biglietto", prezzoBiglietto , "euro");
