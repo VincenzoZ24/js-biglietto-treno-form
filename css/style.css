@@ -10,6 +10,7 @@ body{
     max-width: 800px;
     margin: auto;
     margin-top: 3rem;
+    margin-bottom: 4rem;
     border-radius: 0.5rem;
     box-shadow: 3px 3px 3px #5f001d;
     background-color: white;
@@ -30,6 +31,10 @@ body{
 .container_biglietto h5{
     margin-bottom: 1.5rem;
 }
+.titolo{
+    color: white;
+    text-align: center;
+}
 .container_biglietto input{
     border: none;
     border: 1px solid red;
@@ -46,4 +51,49 @@ body{
     border: none;
     border: 2px solid red;
     border-radius: 0.5rem;
+}
+.il_tuo_biglietto h1{
+    color: white;
+    text-align: center;
+   
+}
+.il_tuo_biglietto{
+    max-width: 800px;
+    margin: auto;
+    display: none;
+}
+ .il_tuo_biglietto.show{
+    display: block;
+}
+.info_passeggero{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 3px 3px 3px #5f001d;
+}
+.nome_passeggero{
+    padding: 1rem 0.5rem;
+    background-color: lightgray;
+}
+.nome_passeggero h3{
+    margin-bottom: 1rem;
+}
+.dati{
+    margin-top: 1rem;
+    display: flex;
+}
+.dettagli{
+    padding: 1rem 0.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.dettagli h5{
+    margin-bottom: 1rem;
+}
+.dettagli div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
