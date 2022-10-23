@@ -5,6 +5,7 @@
 }
 body{
     background-color: rgb(207, 67, 109);
+    padding: 1rem;
 }
 .info_biglietto{
     max-width: 800px;
@@ -96,4 +97,25 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+@media (max-width: 556px) {
+    .container_biglietto{
+        flex-direction: column;
+    }
+    .container_biglietto h5{
+        margin-bottom: 1rem;
+    }
+    .container_biglietto div{
+        margin-bottom: 3rem;
+    }
+    .dati{
+        display: block;
+    }
+    .dettagli{
+        display: block;
+    }
+    .dettagli div{
+        
+        flex-direction: row;
+    }
 }
