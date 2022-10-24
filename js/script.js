@@ -35,3 +35,10 @@ submit.addEventListener("click", function biglietto() {
     eleBiglietto.className = eleBiglietto.className + " show";
 
 });
+
+let reset = document.getElementById("reset");
+reset.addEventListener("click" , function () {
+    let eleBiglietto = document.querySelector(".il_tuo_biglietto");
+    eleBiglietto.classList.remove("show");
+    
+})
